@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery ui </title>
+    <!-- css link  -->
+     <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+     <link rel="stylesheet" href="css/all.min.css">
+     <link rel="stylesheet" href="css/bootstrap-icons.css">
+     <link rel="stylesheet" href="css/bootstrap.css">
+     <link rel="stylesheet" href="css/media.css">
+     <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <section class="image">
+    <div class="container">
+      <div class="row ">
+        <div class="col-lg-12">
+           <!-- ex 1  -->
+          <div class="div1">
+            <h1>1.Draggable</h1>
+          <div id="dragg">
+            <img src="image/cat-with-stuffed-animal-its-head_905745-72.avif" alt="">
+          </div>
+          </div>
+           <!-- ex 2  -->
+        <div class="div2">
+          <h1>2.Droppable</h1>
+          <div id="draggable" class="ui-widget-content">
+            <p>Drag me!</p>
+          </div>
+          <div id="droppable" class="ui-widget-header">
+            <p>Drop here</p>
+          </div>
+
+        </div>
+     
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+           <!-- ex 3  -->
+          <div class="div3 ">
+            <h1>3.Resizable</h1>
+            <div id="resizable">
+              <h3>Resizable</h3>
+          </div>
+         </div>
+         <!-- ex 4  -->
+         <div class="div4">
+          <h1>4.Selectable</h1>
+          <ul id="selectable">
+            <li>Accordion</li>
+            <li>Autocomplete</li>
+            <li>Menu</li>
+            <li>Selectmenu</li>
+            <li>Slider</li>
+            <li>Spinner</li>
+            
+          </ul>
+
+         </div>
+        <!-- ex 5  -->
+         <div class="div5">
+          <h1>5.Sortable</h1>
+          <ul id="sortable">
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span> 1. Accordion</li>
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span> 2.Autocomplete</li>
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>3.Menu</li>
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>4.Selectmenu</li>
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>5.Slider</li>
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>6.Spinner</li>
+          </ul>
+         </div>
+         
+        <!-- ex 6  -->
+         <div class="div6">
+          <h1>6.Accordion</h1>
+          <div id="accordion">
+            <h3>Section 1</h3>
+            <div>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed, non?</p>
+            </div>
+            <h3>Section 2</h3>
+            <div>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed, non?</p>
+            </div>
+            <h3>Section 3</h3>
+            <div>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed, non?</p>
+            </div>
+            <h3>Section 4</h3>
+            <div>
+               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed, non?</p>
+            </div>
+          </div>
+
+         </div>
+           <!-- ex 7  -->
+            <div class="div7">
+              <h1>7.Autocomplete</h1>
+              <form action="#">
+                <div class="mb-3">
+                  <label for="tags" class="form-label">Enter your favourite languase </label>
+                  <input type="text" class="form-control" id="tags">
+                  <button class="btn btn-dark" type="submit"> submit</button>
+                </div>
+              </form>
+            </div>
+             <!-- ex 8 -->
+              <div class="div8">
+                <h1>8.Blind Effect</h1>
+                <div class="toggler1">
+                  <div id="effect" class="ui-widget-content ui-corner-all">
+                    
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, repudiandae?</p>
+                  </div>
+                </div>
+                 
+                <select name="effects" id="effectTypes">
+                  <option value="blind">Blind</option>
+                 
+                </select>
+                 
+                <button id="button" class=" btn btn-dark ui-state-default ui-corner-all">click here!</button>
+
+             </div>
+             <!-- ex 9  -->
+              <div class="div9">
+                <h1>9.Hide effect</h1>
+                <div class="toggler">
+                  <div id="effect1" class="ui-widget-content ui-corner-all">
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, nobis!</p>
+                  </div>
+                </div>
+                 
+                <select name="effects1" id="effectTypes1">
+                  <option value="size">Size</option>
+                </select>
+                 
+                <button id="button1" class=" btn btn-dark ui-state-default ui-corner-all">click here!</button>
+              </div>
+              <!-- ex 10  -->
+               <div class="div10">
+                <h1>  10.show Effect</h1>
+                <div class="toggler">
+                  <div id="effect2" class="ui-widget-content ui-corner-all">
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quo.</p>
+                  </div>
+                </div>
+                 
+                <select name="effects2" id="effectTypes2">
+                 
+                  <option value="fade">Fade</option>
+                 
+                </select>
+                 
+                <button id="button2" class=" btn btn-primary ui-state-default ui-corner-all">click here!</button>
+               </div>
+             
+                 <!-- ex11  -->
+                 <div class="div12">
+                  <h1>11.Dialog</h1>
+                  <div id="dialog" title="Basic dialog">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos rem quasi sequi suscipit porro maiores iusto dignissimos eveniet sint! Est, obcaecati in maxime eum voluptatem quod!</p>
+                  </div>
+                </div>
+                  <!-- ex12  -->
+                  <div class="div11">
+                    <h1>21.Date picker</h1>
+                    <p>Date: <input type="text" id="datepicker"></p>
+                  </div>
+               <!-- ex13 -->
+                <div class="div13">
+                  <h1>13.Checkboxradio</h1>
+                  <fieldset>
+                    <legend>Select your country: </legend>
+                    <label for="radio-1">New York</label>
+                    <input type="radio" name="radio-1" id="radio-1">
+                    <label for="radio-2">Paris</label>
+                    <input type="radio" name="radio-1" id="radio-2">
+                    <label for="radio-3">London</label>
+                    <input type="radio" name="radio-1" id="radio-3">
+                    <label for="radio-4">India</label>
+                    <input type="radio" name="radio-1" id="radio-4">
+                    <label for="radio-5">Bangladesh</label>
+                    <input type="radio" name="radio-1" id="radio-5">
+                  </fieldset>
+                </div>
+                <!-- ex14  -->
+                 <div class="div14">
+                  <h1>14.Tabs</h1>
+                  <div id="tabs">
+                    <ul>
+                      <li><a href="#tabs-1">one</a></li>
+                      <li><a href="#tabs-2">two</a></li>
+                      <li><a href="#tabs-3">three</a></li>
+                    </ul>
+                    <div id="tabs-1">
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus sit atque adipisci sunt quam placeat, repellendus ducimus iusto harum consequuntur? </p>
+                    </div>
+                    <div id="tabs-2">
+                      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, molestias! </p>
+                    </div>
+                    <div id="tabs-3">
+                      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum quibusdam odit fugit ab maiores recusandae.
+                         </p>
+                    </div>
+                  </div>
+                 </div>
+               <!-- ex15  -->
+                <div class="div15">
+                  <h1>15.Switch Class</h1>
+                   
+                  <div class="toggler4">
+                    <div id="effect4" class="newClass ui-corner-all">
+                        Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede.
+                    </div>
+                  </div>
+                  <button id="button4" class="btn btn-primary ui-corner-all">click here!</button>
+                   
+                </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- script link  -->
+ 
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
