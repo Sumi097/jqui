@@ -170,7 +170,13 @@ $(document).ready(function(){
 });
   // ex 12
   $(document).ready(function(){
-    $( "#dialog" ).dialog();
+    $( "#dialog" ).dialog({
+      autoOpen: false,
+    }
+    );
+});
+$("#open").on("click", function () {
+  $("#dialog").dialog("open");
 });
   // ex 13
   $(document).ready(function(){
